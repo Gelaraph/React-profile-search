@@ -1,0 +1,51 @@
+.container {
+  background: rgb(180, 58, 100);
+  background: linear-gradient(
+    90deg,
+    rgba(180, 58, 100, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5em;
+  padding: 3em;
+  margin-bottom: 5em;
+}
+ul li {
+  list-style: none;
+}
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  padding: 0;
+}
+li {
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  gap: 2em;
+  border-radius: 5px;
+}
+.input-div {
+  width: 100%;
+}
+input {
+  width: 98.5%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5em;
+}
+input:focus {
+  outline: none;
+  border: none;
+}
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p {
+  margin-top: 0;
+}
